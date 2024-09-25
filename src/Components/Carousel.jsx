@@ -36,7 +36,7 @@ const Carousel = () => {
         >
           <div className="w-1/2 max-md:w-full h-full flex items-center justify-center">
             <img
-              src="/img/heroSlider.png"
+              src="img/heroSlider.png"
               alt="Your sound best for your life"
               className="object-contain w-full h-full"
             />
@@ -68,7 +68,7 @@ const Carousel = () => {
         >
           <div className="w-1/2 max-md:w-full h-full flex items-center justify-center">
             <img
-              src="/img/heroSlider2.png"
+              src="img/heroSlider2.png"
               alt="Experience the Best Audio"
               className="object-contain w-full h-full"
             />

@@ -112,11 +112,11 @@ const App = () => {
         <h2 className='h3 text-black font-bold text-center max-md:h3'>Can we help you pick a headphone</h2>
 
         <div className='mt-6 flex max-md:flex-col px-16 justify-between'>
-          <Catagories img={'/img/cat1.png'} txt={'Iphone'} />
-          <Catagories img={'/img/cat2.png'} txt={'Laptop'} />
-          <Catagories img={'/img/cat3.png'} txt={'Tablet'} />
-          <Catagories img={'/img/cat4.png'} txt={'Speaker'} />
-          <Catagories img={'/img/heroSlider.png'} txt={'Headphone'} />
+          <Catagories img={'img/cat1.png'} txt={'Iphone'} />
+          <Catagories img={'img/cat2.png'} txt={'Laptop'} />
+          <Catagories img={'img/cat3.png'} txt={'Tablet'} />
+          <Catagories img={'img/cat4.png'} txt={'Speaker'} />
+          <Catagories img={'img/heroSlider.png'} txt={'Headphone'} />
         </div>
       </div>
 
@@ -125,7 +125,7 @@ const App = () => {
       <div className='w-full px-8 flex max-md:flex-col justify-between mt-12 gap-4'>
         <div className='w-1/2 flex  h-[45vh]  max-md:w-full items-center py-4 px-2 boxshadow'>
           <div className='w-[50%]  h-auto'>
-            <img src="/img/camera.png" className='w-[90%] h-auto rotate-[-45deg]' alt="camerpng" />
+            <img src="img/camera.png" className='w-[90%] h-auto rotate-[-45deg]' alt="camerpng" />
           </div>
           <div className='w-[50%]'>
             <h2 className='h3 max-md:text-[20px] text-black font-extrabold'>
@@ -140,7 +140,7 @@ const App = () => {
         </div>
         <div className='w-1/2 flex  h-[45vh] items-center max-md:w-full py-4 pl-10 boxshadow'>
           <div className='w-[50%] h-auto'>
-            <img src="/img/tablet.png" className=' w-[55%] h-auto ' alt="camerpng" />
+            <img src="img/tablet.png" className=' w-[55%] h-auto ' alt="camerpng" />
           </div>
           <div className='w-[50%]'>
             <h2 className='h3 max-md:text-[20px] text-black font-extrabold'>

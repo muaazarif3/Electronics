@@ -11,23 +11,23 @@ import ContactForm from './Components/Contact.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Electronics/",
     element: <Layout />,
     children: [
       {
-        path: "/",
+        path: "/Electronics/",
         element: <App />,
       },
       {
-        path: "/about",
+        path: "/Electronics/about",
         element: <About />,
       },
       {
-        path: "/login",
+        path: "/Electronics/login",
         element: <LoginPage />,
       },
       {
-        path: "/contact",
+        path: "/Electronics/contact",
         element: <ContactForm />,
       },
     ],

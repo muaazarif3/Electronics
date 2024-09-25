@@ -22,7 +22,7 @@ const Header = () => {
 
             <div className='flex gap-5 items-center mr-44 max-md:hidden'>
                 <NavLink
-                    to='/'
+                    to='/Electronics/'
                     className={({ isActive }) =>
                         `${isActive ? 'text-black font-semibold' : 'text-gray font-light'} h5 flex items-center gap-1`}
                 >
@@ -32,7 +32,7 @@ const Header = () => {
                     Electronics <FaAngleDown className='text-[14px] mt-1' />
                 </h2>
                 <NavLink
-                    to='/contact'
+                    to='/Electronics/contact'
                     className={({ isActive }) => {
                         if (isActive) {
                             setBgSec(true); // Trigger the background state change when active
@@ -46,14 +46,14 @@ const Header = () => {
                     Contacts <FaAngleDown className='text-[14px] mt-1' />
                 </NavLink>
                 <NavLink
-                    to='/about'
+                    to='/Electronics/about'
                     className={({ isActive }) =>
                         `${isActive ? 'text-black font-semibold' : 'text-gray font-light'} h5 flex items-center gap-1`}
                 >
                     About <FaAngleDown className='text-[14px] mt-1' />
                 </NavLink>
                 <NavLink
-                    to='/login'
+                    to='/Electronics/login'
                     className={({ isActive }) =>
                         `${isActive ? 'text-black font-semibold' : 'text-gray font-light'} h5 flex items-center gap-1`}
                 >
@@ -71,7 +71,7 @@ const Header = () => {
                 <div className="absolute top-0 left-0 w-full h-screen bg-white py-52 px-2 z-10 max-md:block bg-White">
                     <div className='flex flex-col gap-4 ml-10'>
                         <NavLink
-                            to='/'
+                            to='/Electronics/'
                             className={({ isActive }) =>
                                 `${isActive ? 'text-black font-semibold' : 'text-gray font-light'} h5 flex items-center gap-1`}
                         >
@@ -81,7 +81,7 @@ const Header = () => {
                             Electronics <FaAngleDown className='text-[14px] mt-1' />
                         </h2>
                         <NavLink
-                            to='/contact'
+                            to='/Electronics/contact'
                             className={({ isActive }) => {
                                 if (isActive) {
                                     setBgSec(true); // Trigger the background state change when active
@@ -95,14 +95,14 @@ const Header = () => {
                             Contacts <FaAngleDown className='text-[14px] mt-1' />
                         </NavLink>
                         <NavLink
-                            to='/about'
+                            to='/Electronics/about'
                             className={({ isActive }) =>
                                 `${isActive ? 'text-black font-semibold' : 'text-gray font-light'} h5 flex items-center gap-1`}
                         >
                             About <FaAngleDown className='text-[14px] mt-1' />
                         </NavLink>
                         <NavLink
-                            to='/login'
+                            to='/Electronics/login'
                             className={({ isActive }) =>
                                 `${isActive ? 'text-black font-semibold' : 'text-gray font-light'} h5 flex items-center gap-1`}
                         >
